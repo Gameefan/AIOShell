@@ -35,6 +35,14 @@ namespace AIOShell
 		public static void SetupCommands()
 		{
 			commands.Add("exit", new ExitCommand());
+
+			commands.Add("listalldrives", new ListAllDrivesCommand());
+			commands.Add("lad", new ListAllDrivesCommand());
+
+			commands.Add("listenvvars", new ListEnvVarsCommand());
+			commands.Add("listenvs", new ListEnvVarsCommand());
+			commands.Add("lev", new ListEnvVarsCommand());
+			commands.Add("levs", new ListEnvVarsCommand());
 		}
 	}
 }
