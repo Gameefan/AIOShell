@@ -1,0 +1,40 @@
+﻿using AIOShell.Commands;
+using AIOShell.Interfaces;
+using System;
+using System.Collections.Generic;
+
+namespace AIOShell
+{
+	public static class CommandManager
+	{
+		public static Dictionary<string, ICommand> commands = new Dictionary<string, ICommand>();
+
+		public static bool debugEnabled = false;
+
+		public static string currentCommand = "";
+
+		public static int FetchCommand(string cmd)
+		{
+			string[] args = cmd.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+			if (args.Length <= 0)
+				return 1;
+			if (commands.ContainsKey(args[0].ToLower()))
+			{
+				currentCommand = args[0].ToLower();
+				int returnCode = commands[args[0].ToLower()].Execute(args);
+				currentCommand = "";
+				return returnCode;
+			}
+			else
+			{
+				Output.WriteError($"Couldn't find command: {args[0]}\n");
+				return 1;
+			}
+		}
+
+		public static void SetupCommands()
+		{
+			commands.Add("exit", new ExitCommand());
+		}
+	}
+}

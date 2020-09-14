@@ -1,0 +1,11 @@
+G:\GIT Repos\AIOShell\AIOShell\bin\Debug\netcoreapp3.1\AIOShell.exe
+G:\GIT Repos\AIOShell\AIOShell\bin\Debug\netcoreapp3.1\AIOShell.deps.json
+G:\GIT Repos\AIOShell\AIOShell\bin\Debug\netcoreapp3.1\AIOShell.runtimeconfig.json
+G:\GIT Repos\AIOShell\AIOShell\bin\Debug\netcoreapp3.1\AIOShell.runtimeconfig.dev.json
+G:\GIT Repos\AIOShell\AIOShell\bin\Debug\netcoreapp3.1\AIOShell.dll
+G:\GIT Repos\AIOShell\AIOShell\bin\Debug\netcoreapp3.1\AIOShell.pdb
+G:\GIT Repos\AIOShell\AIOShell\obj\Debug\netcoreapp3.1\AIOShell.csprojAssemblyReference.cache
+G:\GIT Repos\AIOShell\AIOShell\obj\Debug\netcoreapp3.1\AIOShell.AssemblyInfoInputs.cache
+G:\GIT Repos\AIOShell\AIOShell\obj\Debug\netcoreapp3.1\AIOShell.AssemblyInfo.cs
+G:\GIT Repos\AIOShell\AIOShell\obj\Debug\netcoreapp3.1\AIOShell.dll
+G:\GIT Repos\AIOShell\AIOShell\obj\Debug\netcoreapp3.1\AIOShell.pdb
