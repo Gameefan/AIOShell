@@ -8,11 +8,15 @@ namespace AIOShell
 	{
 		static void Main(string[] args)
 		{
+			if(args.Length==1&&args[0]=="debug")
+			{
+				CommandManager.debugEnabled = true;
+			}
 			CommandManager.SetupCommands();
 			while (true)
 			{
 				bool shouldBreak = false;
-				Output.Write($"AIOSHELL> ");
+				Output.Write($"AIOSHELL{"{"+ Environment.CurrentDirectory + "}"} $ ");
 				string cmd = Console.ReadLine();
 				switch(CommandManager.FetchCommand(cmd))
 				{
@@ -25,6 +29,7 @@ namespace AIOShell
 				if (shouldBreak)
 					break;
 			}
+			Console.ForegroundColor = Output.defaultColor;
 		}
 	}
 }

@@ -43,6 +43,10 @@ namespace AIOShell
 			commands.Add("listenvs", new ListEnvVarsCommand());
 			commands.Add("lev", new ListEnvVarsCommand());
 			commands.Add("levs", new ListEnvVarsCommand());
+
+			commands.Add("cd", new CdCommand());
+
+			//commands.Add("changedisk", new ChangeDiskCommand());
 		}
 	}
 }

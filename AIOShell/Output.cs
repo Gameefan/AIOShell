@@ -4,6 +4,7 @@ namespace AIOShell
 {
 	public static class Output
 	{
+		public static ConsoleColor defaultColor = Console.ForegroundColor;
 		public static string Write(string s, ConsoleColor color = ConsoleColor.Gray, bool displayPrefix = false)
 		{
 			string msg = $"{s}";
