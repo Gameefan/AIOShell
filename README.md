@@ -15,6 +15,9 @@ Linux:
 none (ETA: TBD)
 ```
 
+## How to contribute
+Create a pull request and suggest your code/command/bugfix/etc
+
 ## Creator & Contact
 Creator:
 > Gameefan
