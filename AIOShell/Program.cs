@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 
@@ -6,11 +7,31 @@ namespace AIOShell
 {
 	class Program
 	{
+		public static bool disableColors = false;
 		static void Main(string[] args)
 		{
-			if(args.Length==1&&args[0]=="debug")
+			List<string> argList = new List<string>();
+			foreach (string str in args)
 			{
-				CommandManager.debugEnabled = true;
+				argList.Add(str);
+			}
+			foreach (string arg in argList)
+			{
+				switch(arg)
+				{
+					case "debug":
+					case "-debug":
+					case "--debug":
+						CommandManager.debugEnabled = true;
+						break;
+					case "nocolor":
+					case "-nocolor":
+					case "--nocolor":
+						disableColors = true;
+						break;
+					default:
+						break;
+				}
 			}
 			CommandManager.SetupCommands();
 			while (true)

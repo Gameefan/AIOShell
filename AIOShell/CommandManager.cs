@@ -46,6 +46,12 @@ namespace AIOShell
 
 			commands.Add("cd", new CdCommand());
 
+			commands.Add("mkdir", new MkDirCommand());
+
+			commands.Add("rmdir", new RmDirCommand());
+
+			commands.Add("ls", new LsCommand());
+
 			//commands.Add("changedisk", new ChangeDiskCommand());
 		}
 	}

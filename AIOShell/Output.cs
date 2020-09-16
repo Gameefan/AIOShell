@@ -11,10 +11,12 @@ namespace AIOShell
 			if (CommandManager.currentCommand != "" && displayPrefix)
 			{
 				msg = CommandManager.currentCommand + ": " + msg;
-				Console.ForegroundColor = ConsoleColor.Gray;
+				if (!Program.disableColors)
+					Console.ForegroundColor = ConsoleColor.Gray;
 				Console.Write($"{CommandManager.currentCommand}: ");
 			}
-			Console.ForegroundColor = color;
+			if (!Program.disableColors)
+				Console.ForegroundColor = color;
 			Console.Write(s);
 			Console.ResetColor();
 			return msg;
@@ -25,12 +27,15 @@ namespace AIOShell
 			if (CommandManager.currentCommand != "" && displayPrefix)
 			{
 				msg = CommandManager.currentCommand + ": " + msg;
-				Console.ForegroundColor = ConsoleColor.Gray;
+				if (!Program.disableColors)
+					Console.ForegroundColor = ConsoleColor.Gray;
 				Console.Write($"{CommandManager.currentCommand}: ");
 			}
-			Console.ForegroundColor = ConsoleColor.Yellow;
+			if (!Program.disableColors)
+				Console.ForegroundColor = ConsoleColor.Yellow;
 			Console.Write("Warning: ");
-			Console.ForegroundColor = color;
+			if (!Program.disableColors)
+				Console.ForegroundColor = color;
 			Console.Write(s);
 			Console.ResetColor();
 			return msg;
@@ -41,12 +46,15 @@ namespace AIOShell
 			if (CommandManager.currentCommand != "" && displayPrefix)
 			{
 				msg = CommandManager.currentCommand + ": " + msg;
-				Console.ForegroundColor = ConsoleColor.Gray;
+				if (!Program.disableColors)
+					Console.ForegroundColor = ConsoleColor.Gray;
 				Console.Write($"{CommandManager.currentCommand}: ");
 			}
-			Console.ForegroundColor = ConsoleColor.Red;
+			if (!Program.disableColors)
+				Console.ForegroundColor = ConsoleColor.Red;
 			Console.Write("Error: ");
-			Console.ForegroundColor = color;
+			if (!Program.disableColors)
+				Console.ForegroundColor = color;
 			Console.Write(s);
 			Console.ResetColor();
 			return msg;
@@ -59,12 +67,15 @@ namespace AIOShell
 			if (CommandManager.currentCommand != "" && displayPrefix)
 			{
 				msg = CommandManager.currentCommand + ": " + msg;
-				Console.ForegroundColor = ConsoleColor.Gray;
+				if (!Program.disableColors)
+					Console.ForegroundColor = ConsoleColor.Gray;
 				Console.Write($"{CommandManager.currentCommand}: ");
 			}
-			Console.ForegroundColor = ConsoleColor.Cyan;
+			if (!Program.disableColors)
+				Console.ForegroundColor = ConsoleColor.Cyan;
 			Console.Write("Debug: ");
-			Console.ForegroundColor = color;
+			if (!Program.disableColors)
+				Console.ForegroundColor = color;
 			Console.Write(s);
 			Console.ResetColor();
 			return msg;
