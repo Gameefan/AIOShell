@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\GIT Repos\\AIOShell\\AIOShell\\AIOShell.csproj": {}
+    "G:\\GIT Repos\\AIOShell\\AIOShell.csproj": {}
   },
   "projects": {
-    "G:\\GIT Repos\\AIOShell\\AIOShell\\AIOShell.csproj": {
+    "G:\\GIT Repos\\AIOShell\\AIOShell.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\GIT Repos\\AIOShell\\AIOShell\\AIOShell.csproj",
+        "projectUniqueName": "G:\\GIT Repos\\AIOShell\\AIOShell.csproj",
         "projectName": "AIOShell",
-        "projectPath": "G:\\GIT Repos\\AIOShell\\AIOShell\\AIOShell.csproj",
+        "projectPath": "G:\\GIT Repos\\AIOShell\\AIOShell.csproj",
         "packagesPath": "C:\\Users\\Gameefan\\.nuget\\packages\\",
-        "outputPath": "G:\\GIT Repos\\AIOShell\\AIOShell\\obj\\",
+        "outputPath": "G:\\GIT Repos\\AIOShell\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
