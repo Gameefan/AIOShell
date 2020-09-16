@@ -9,7 +9,7 @@ Yes, **EVERYTHING**!
 ## Releases
 ```
 Windows:
-none (ETA: TBD)
+v0.1.alpha.1
 
 Linux:
 none (ETA: TBD)

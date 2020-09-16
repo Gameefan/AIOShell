@@ -8,6 +8,7 @@ namespace AIOShell
 	class Program
 	{
 		public static bool disableColors = false;
+		public const string VERSION = "v0.1.alpha.1";
 		static void Main(string[] args)
 		{
 			List<string> argList = new List<string>();
@@ -34,6 +35,7 @@ namespace AIOShell
 				}
 			}
 			CommandManager.SetupCommands();
+			Output.Write($"AIOShell {VERSION} by Gameefan\n");
 			while (true)
 			{
 				bool shouldBreak = false;
