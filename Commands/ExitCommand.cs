@@ -12,5 +12,10 @@ namespace AIOShell.Commands
 			Output.Write("Quitting");
 			return 1001;
 		}
+
+		public string GetHelpID()
+		{
+			return "exit";
+		}
 	}
 }

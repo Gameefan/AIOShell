@@ -7,5 +7,6 @@ namespace AIOShell.Interfaces
 	public interface ICommand
 	{
 		public int Execute(string[] args);
+		public string GetHelpID();
 	}
 }

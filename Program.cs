@@ -35,6 +35,10 @@ namespace AIOShell
 				}
 			}
 			CommandManager.SetupCommands();
+			CommandHelpPages.SetupSyntax();
+			CommandHelpPages.SetupFunction();
+			CommandHelpPages.SetupAlias();
+			CommandHelpPages.SetupAuthor();
 			Output.Write($"AIOShell {VERSION} by Gameefan\n");
 			while (true)
 			{

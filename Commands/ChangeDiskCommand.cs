@@ -32,5 +32,10 @@ namespace AIOShell.Commands
 			}
 			return 0;
 		}
+
+		public string GetHelpID()
+		{
+			return "ᾼ";
+		}
 	}
 }

@@ -52,6 +52,8 @@ namespace AIOShell
 
 			commands.Add("ls", new LsCommand());
 
+			commands.Add("help", new HelpCommand());
+
 			//commands.Add("changedisk", new ChangeDiskCommand());
 		}
 	}
