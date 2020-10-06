@@ -14,11 +14,11 @@ namespace AIOShell.Commands
 			string[] directories= Directory.GetDirectories(Environment.CurrentDirectory);
 			foreach (string dir in directories)
 			{
-				Output.Write($"{dir.Substring(Environment.CurrentDirectory.Length + 1)}\\\n");
+				Output.Write($"   {dir.Substring(Environment.CurrentDirectory.Length + 1)}\\\n");
 			}
 			foreach (string file in files)
 			{
-				Output.Write($"{file.Substring(Environment.CurrentDirectory.Length + 1)}\n");
+				Output.Write($"   {file.Substring(Environment.CurrentDirectory.Length + 1)}\n");
 			}
 			return 0;
 		}

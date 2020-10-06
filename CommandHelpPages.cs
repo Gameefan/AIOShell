@@ -21,6 +21,12 @@ namespace AIOShell
 			syntaxList.Add("ls", "ls");
 			syntaxList.Add("mkdir", "mkdir <name>");
 			syntaxList.Add("rmdir", "rmdir <name>");
+			syntaxList.Add("lcs", "lcs <name>");
+			syntaxList.Add("gse", "gse <filename>");
+			syntaxList.Add("setvar", "setvar <name> <value>");
+			syntaxList.Add("addvar", "addvar <name> <value>");
+			syntaxList.Add("compare", "compare <value1> <value2> <cmp-mode> <value>");
+			syntaxList.Add("echo", "echo <text>");
 		}
 		public static void SetupFunction()
 		{
@@ -32,6 +38,12 @@ namespace AIOShell
 			functionList.Add("ls", "Shows the contents of the current directory");
 			functionList.Add("mkdir", "Creates a directory");
 			functionList.Add("rmdir", "Removes a direcotry");
+			functionList.Add("lcs", "Loads an extra command set");
+			functionList.Add("gse", "Loads and executes G-Script file");
+			functionList.Add("setvar", "Sets a local variable");
+			functionList.Add("addvar", "Increments the provided variable by the provided value");
+			functionList.Add("compare", "Compares two values and exectes the command if they are equal; cmp-mode { 0=eq 1=lt 2=gt 3=neq 4=nlt 5=ngt }");
+			functionList.Add("echo", "Displays text");
 		}
 		public static void SetupAlias()
 		{
@@ -43,6 +55,12 @@ namespace AIOShell
 			aliasList.Add("ls", "No aliases");
 			aliasList.Add("mkdir", "No aliases");
 			aliasList.Add("rmdir", "No aliases");
+			aliasList.Add("lcs", "loadcommandset, loadextracommandset, lecs");
+			aliasList.Add("gse", "gscirptexecute");
+			aliasList.Add("setvar", "No aliases");
+			aliasList.Add("addvar", "No aliases");
+			aliasList.Add("compare", "cmp");
+			aliasList.Add("echo", "No aliases");
 		}
 		public static void SetupAuthor()
 		{
@@ -54,6 +72,12 @@ namespace AIOShell
 			authorList.Add("ls", "Gameefan");
 			authorList.Add("mkdir", "Gameefan");
 			authorList.Add("rmdir", "Gameefan");
+			authorList.Add("lcs", "Gameefan");
+			authorList.Add("gse", "Gameefan");
+			authorList.Add("setvar", "Gameefan");
+			authorList.Add("addvar", "Gameefan");
+			authorList.Add("compare", "Gameefan");
+			authorList.Add("echo", "Gameefan");
 		}
 	}
 }

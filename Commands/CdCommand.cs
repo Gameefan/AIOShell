@@ -32,6 +32,8 @@ namespace AIOShell.Commands
 			catch (DirectoryNotFoundException)
 			{
 				//Output.WriteError("The directory not found!\n");
+				Output.WriteDebug($"{args.Length}\n");
+				Output.WriteDebug($"{args[1].Length}\n");
 				if (args.Length == 2 && args[1].Length == 1)
 				{
 					try

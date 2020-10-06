@@ -8,55 +8,71 @@ namespace AIOShell
 	class Program
 	{
 		public static bool disableColors = false;
-		public const string VERSION = "v0.1.alpha.1";
+		public const string VERSION = "v0.1.0.alpha.5";
+
+		public static Dictionary<string, int> localVariables = new Dictionary<string, int>();
+
 		static void Main(string[] args)
 		{
-			List<string> argList = new List<string>();
-			foreach (string str in args)
+			try
 			{
-				argList.Add(str);
-			}
-			foreach (string arg in argList)
-			{
-				switch(arg)
+				List<string> argList = new List<string>();
+				foreach (string str in args)
 				{
-					case "debug":
-					case "-debug":
-					case "--debug":
-						CommandManager.debugEnabled = true;
-						break;
-					case "nocolor":
-					case "-nocolor":
-					case "--nocolor":
-						disableColors = true;
-						break;
-					default:
+					argList.Add(str);
+				}
+				foreach (string arg in argList)
+				{
+					switch (arg)
+					{
+						case "debug":
+						case "-debug":
+						case "--debug":
+							CommandManager.debugEnabled = true;
+							break;
+						case "nocolor":
+						case "-nocolor":
+						case "--nocolor":
+							disableColors = true;
+							break;
+						default:
+							break;
+					}
+				}
+				CommandManager.SetupCommands();
+				CommandHelpPages.SetupSyntax();
+				CommandHelpPages.SetupFunction();
+				CommandHelpPages.SetupAlias();
+				CommandHelpPages.SetupAuthor();
+				Output.Write($"AIOShell {VERSION} by Gameefan\n");
+				while (true)
+				{
+					bool shouldBreak = false;
+					if (CommandManager.extraCommandSet.Length == 0)
+						Output.Write($"AIOSHELL{"{" + Environment.CurrentDirectory + "}"} $ ");
+					else
+					{
+						Output.Write($"AIOSHELL{"{" + Environment.CurrentDirectory + "}"} ({CommandManager.extraCommandSet}) $ ");
+					}
+					string cmd = Console.ReadLine();
+					switch (CommandManager.FetchCommand(cmd))
+					{
+						case 1001:
+							shouldBreak = true;
+							break;
+						default:
+							break;
+					}
+					if (shouldBreak)
 						break;
 				}
+				Console.ForegroundColor = Output.defaultColor;
 			}
-			CommandManager.SetupCommands();
-			CommandHelpPages.SetupSyntax();
-			CommandHelpPages.SetupFunction();
-			CommandHelpPages.SetupAlias();
-			CommandHelpPages.SetupAuthor();
-			Output.Write($"AIOShell {VERSION} by Gameefan\n");
-			while (true)
+			catch (Exception e)
 			{
-				bool shouldBreak = false;
-				Output.Write($"AIOSHELL{"{"+ Environment.CurrentDirectory + "}"} $ ");
-				string cmd = Console.ReadLine();
-				switch(CommandManager.FetchCommand(cmd))
-				{
-					case 1001:
-						shouldBreak = true;
-						break;
-					default:
-						break;
-				}
-				if (shouldBreak)
-					break;
+				Console.WriteLine($"An unhandled error occured!\nMSG: {e.Message}\nST: {e.StackTrace}\nS: {e.Source}");
+				return;
 			}
-			Console.ForegroundColor = Output.defaultColor;
 		}
 	}
 }

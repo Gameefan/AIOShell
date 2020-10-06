@@ -9,7 +9,7 @@ namespace AIOShell.Commands
 	{
 		public int Execute(string[] args)
 		{
-			Output.Write("Quitting");
+			Output.Write("Quitting\n");
 			return 1001;
 		}
 
