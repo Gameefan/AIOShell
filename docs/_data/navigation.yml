@@ -1,44 +1,31 @@
 docs:
-  - title: Getting Started
+  - title: Commands
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
-
-  - title: Customization
-    children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
-
-  - title: Content
-    children:
-      - title: "Working with Posts"
-        url: /docs/posts/
-      - title: "Working with Pages"
-        url: /docs/pages/
-      - title: "Working with Collections"
-        url: /docs/collections/
-      - title: "Helpers"
-        url: /docs/helpers/
-      - title: "Utility Classes"
-        url: /docs/utility-classes/
-
-  - title: Extras
-    children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
+      - title: "exit"
+        url: /cmd/exit
+      - title: "listalldrives"
+        url: /cmd/listalldrives
+      - title: "listenvvars"
+        url: /cmd/listenvvars
+      - title: "cd"
+        url: /cmd/cd
+      - title: "mkdir"
+        url: /cmd/mkdir
+      - title: "rmdir"
+        url: /cmd/rmdir
+      - title: "ls"
+        url: /cmd/ls
+      - title: "loadcommandset"
+        url: /cmd/loadcommandset
+      - title: "pe_i"
+        url: /cmd/pe_i
+      - title: "gse"
+        url: /cmd/gse
+      - title: "setvar"
+        url: /cmd/setvar
+      - title: "addvar"
+        url: /cmd/addvar
+      - title: "cmp"
+        url: /cmd/cmp
+      - title: "echo"
+        url: /cmd/echo
