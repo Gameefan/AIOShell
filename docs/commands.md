@@ -1,15 +1,15 @@
 # Commands
- - [] exit
- - [] listalldrives
- - [] listenvvars
- - [] cd
- - [] mkdir
- - [] rmdir
- - [] ls
- - [] loadcommandset
- - [] pe_i
- - [] gse
- - [] setvar
- - [] addvar
- - [] cmp
- - [] echo
+ - [exit](https://gameefan.github.io/AIOShell/commands)
+ - [listalldrives](https://gameefan.github.io/AIOShell/commands)
+ - [listenvvars](https://gameefan.github.io/AIOShell/commands)
+ - [cd](https://gameefan.github.io/AIOShell/commands)
+ - [mkdir](https://gameefan.github.io/AIOShell/commands)
+ - [rmdir](https://gameefan.github.io/AIOShell/commands)
+ - [ls](https://gameefan.github.io/AIOShell/commands)
+ - [loadcommandset](https://gameefan.github.io/AIOShell/commands)
+ - [pe_i](https://gameefan.github.io/AIOShell/commands)
+ - [gse](https://gameefan.github.io/AIOShell/commands)
+ - [setvar](https://gameefan.github.io/AIOShell/commands)
+ - [addvar](https://gameefan.github.io/AIOShell/commands)
+ - [cmp](https://gameefan.github.io/AIOShell/commands)
+ - [echo](https://gameefan.github.io/AIOShell/commands)
