@@ -1,4 +1,5 @@
 # AIOShell
+![.NET Core](https://github.com/Gameefan/AIOShell/workflows/.NET%20Core/badge.svg)
 ## What is this?
 I want to make a shell-like program that allows you to do everything!
 Yes, **EVERYTHING**!
