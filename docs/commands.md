@@ -1,0 +1,15 @@
+# Commands
+ - [] exit
+ - [] listalldrives
+ - [] listenvvars
+ - [] cd
+ - [] mkdir
+ - [] rmdir
+ - [] ls
+ - [] loadcommandset
+ - [] pe_i
+ - [] gse
+ - [] setvar
+ - [] addvar
+ - [] cmp
+ - [] echo
