@@ -4,8 +4,8 @@
 ## Function
 Loads an extra command set
 ## Aliases
-* loadcommandset
-* loadextracommandset
-* lecs
+loadcommandset
+<br/>loadextracommandset
+<br/>lecs
 ## Author
 Gameefan

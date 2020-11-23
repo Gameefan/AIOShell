@@ -4,6 +4,6 @@
 ## Function
 Loads and executes G-Script file
 ## Aliases
-* gscriptexecute
+gscriptexecute
 ## Author
 Gameefan

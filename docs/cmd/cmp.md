@@ -4,6 +4,6 @@
 ## Function
 Compares two values and exectes the command if they are equal; cmp-mode { 0=eq 1=lt 2=gt 3=neq 4=nlt 5=ngt }
 ## Aliases
-* cmp
+cmp
 ## Author
 Gameefan

@@ -4,6 +4,6 @@
 ## Function
 Displays all logical drives connected to the pc
 ## Aliases
-* listalldrives
+listalldrives
 ## Author
 Gameefan

@@ -4,8 +4,8 @@
 ## Function
 Displays all enviroment variables
 ## Aliases
-* listenvvars
-* listenvs
-* levs
+listenvvars
+<br/>listenvs
+<br/>levs
 ## Author
 Gameefan
