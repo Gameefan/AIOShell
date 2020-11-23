@@ -1,1 +1,8 @@
 theme: jekyll-theme-minimal
+defaults:
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
