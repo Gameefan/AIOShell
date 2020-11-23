@@ -7,7 +7,6 @@
  - [rmdir](https://gameefan.github.io/AIOShell/cmd/rmdir)
  - [ls](https://gameefan.github.io/AIOShell/cmd/ls)
  - [loadcommandset](https://gameefan.github.io/AIOShell/cmd/loadcommandset)
- - [pe_i](https://gameefan.github.io/AIOShell/cmd/pe_i)
  - [gse](https://gameefan.github.io/AIOShell/cmd/gse)
  - [setvar](https://gameefan.github.io/AIOShell/cmd/setvar)
  - [addvar](https://gameefan.github.io/AIOShell/cmd/addvar)

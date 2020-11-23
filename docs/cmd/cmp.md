@@ -7,3 +7,6 @@ Compares two values and exectes the command if they are equal; cmp-mode { 0=eq 1
 cmp
 ## Author
 Gameefan
+## Links
+[Back](https://gameefan.github.io/AIOShell/commands)
+[Home](https://gameefan.github.io/AIOShell/)

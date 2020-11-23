@@ -7,3 +7,6 @@ Increments the provided variable by the provided value
 None
 ## Author
 Gameefan
+## Links
+[Back](https://gameefan.github.io/AIOShell/commands)
+[Home](https://gameefan.github.io/AIOShell/)

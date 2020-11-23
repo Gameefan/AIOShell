@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "G:\\GIT Repos\\AIOShell\\AIOShell.csproj": {}
+    "D:\\Github Repos\\AIOShell\\AIOShell.csproj": {}
   },
   "projects": {
-    "G:\\GIT Repos\\AIOShell\\AIOShell.csproj": {
+    "D:\\Github Repos\\AIOShell\\AIOShell.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\GIT Repos\\AIOShell\\AIOShell.csproj",
+        "projectUniqueName": "D:\\Github Repos\\AIOShell\\AIOShell.csproj",
         "projectName": "AIOShell",
-        "projectPath": "G:\\GIT Repos\\AIOShell\\AIOShell.csproj",
+        "projectPath": "D:\\Github Repos\\AIOShell\\AIOShell.csproj",
         "packagesPath": "C:\\Users\\Gameefan\\.nuget\\packages\\",
-        "outputPath": "G:\\GIT Repos\\AIOShell\\obj\\",
+        "outputPath": "D:\\Github Repos\\AIOShell\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Gameefan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -25,12 +22,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "F:\\Program Files (x86)\\Cosmos User Kit\\packages\\": {},
-          "G:\\Gameefan\\Pobrane": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -57,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

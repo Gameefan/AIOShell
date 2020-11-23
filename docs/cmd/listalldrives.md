@@ -7,3 +7,6 @@ Displays all logical drives connected to the pc
 listalldrives
 ## Author
 Gameefan
+## Links
+[Back](https://gameefan.github.io/AIOShell/commands)
+[Home](https://gameefan.github.io/AIOShell/)
