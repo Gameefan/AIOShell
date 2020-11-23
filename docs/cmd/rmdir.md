@@ -1,8 +1,8 @@
-# HELP
+# RMDIR
 ## Syntax
-```help```
+```rmdir <name>```
 ## Function
-Displays help for a command
+Removes a directory
 ## Aliases
 None
 ## Author

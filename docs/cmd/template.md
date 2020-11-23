@@ -1,6 +1,6 @@
 # CMD NAME
 ## Syntax
-Syntax
+```Syntax```
 ## Function
 Function
 ## Aliases

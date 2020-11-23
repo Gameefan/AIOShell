@@ -1,8 +1,8 @@
-# HELP
+# ECHO
 ## Syntax
-```help```
+```echo <text>```
 ## Function
-Displays help for a command
+Displays text
 ## Aliases
 None
 ## Author

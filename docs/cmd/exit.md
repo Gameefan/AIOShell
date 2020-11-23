@@ -1,8 +1,8 @@
-# HELP
+# EXIT
 ## Syntax
-```help```
+```exit```
 ## Function
-Displays help for a command
+Exits
 ## Aliases
 None
 ## Author

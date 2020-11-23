@@ -1,8 +1,8 @@
-# HELP
+# MKDIR
 ## Syntax
-```help```
+```mkdir <name>```
 ## Function
-Displays help for a command
+Creates a directory
 ## Aliases
 None
 ## Author
