@@ -10,5 +10,5 @@ listenvvars
 ## Author
 Gameefan
 ## Links
-[Back](https://gameefan.github.io/AIOShell/commands)
-[Home](https://gameefan.github.io/AIOShell/)
+[Back](https://gameefan.github.io/AIOShell/commands)<br/>
+[Home](https://gameefan.github.io/AIOShell/)<br/>
